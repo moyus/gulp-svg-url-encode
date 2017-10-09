@@ -1,0 +1,31 @@
+{
+  "name": "gulp-svg-url-encode",
+  "version": "1.0.0",
+  "description": "A gulp plugin which transform all svg resources in url(...) declaration into  utf-8 encoded DataUrl string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyus/gulp-svg-url-encode.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "svg",
+    "encode"
+  ],
+  "author": "moyu <moyuboy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moyus/gulp-svg-url-encode/issues"
+  },
+  "homepage": "https://github.com/moyus/gulp-svg-url-encode#readme",
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "gulp-util": "^3.0.8",
+    "mocha": "^4.0.1",
+    "through2": "^2.0.3"
+  }
+}
